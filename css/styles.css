@@ -447,8 +447,12 @@ img {
 }
 /*---------customers-----*/
 .customers {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  width: 100%;
+
+  padding-top: 96px;
+  padding-bottom: 96px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
 }
 .customers-title {
   font-weight: 700;
@@ -464,10 +468,15 @@ img {
 }
 .customers-list {
   display: flex;
-  gap: 24px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 72px 16px;
+
+  /* gap: 24px; */
 }
 .customers-item {
-  width: calc((100% - 120px) / 6);
+  width: calc((100% - 16px) / 2);
+  /* width: calc((100% - 120px) / 6);*/
   height: 88px;
   position: relative;
 }
