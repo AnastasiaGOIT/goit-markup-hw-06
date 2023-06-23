@@ -50,6 +50,7 @@ ul {
   padding: 0 15px 0 15px;
   margin-left: auto;
   margin-right: auto;
+  height: auto;
 }
 img {
   display: block;
@@ -200,31 +201,37 @@ img {
 /*---------Hero-----------*/
 
 .hero {
-  max-width: 1440px;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
+  /* max-width: 1440px; */
+  /* padding-top: 188px;
+  padding-bottom: 188px; */
   background-image: linear-gradient(
       to bottom,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/cover.jpg);
+    url(../images/phone-bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .hero-container {
 }
 
 .hero-title {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  /* font-size: 56px; */
+  /* line-height: 1.07; */
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   align-items: center;
   color: #ffffff;
-  max-width: 496px;
+  max-width: 320px;
+  /* max-width: 496px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -246,7 +253,8 @@ img {
   padding: 16px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin-top: 48px;
+  margin-top: 72px;
+  /* margin-top: 48px; */
   border-color: #4d5ae5;
   transition: var(--transition-background);
 }

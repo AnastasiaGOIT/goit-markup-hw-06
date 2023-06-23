@@ -43,6 +43,22 @@
   .customers-container {
     max-width: 552px;
   }
+  .hero {
+     background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/tablet-bg.jpg);
+  }
+  .hero-title {
+ 
+  font-size: 56px; 
+  line-height: 1.07;
+  max-width: 496px;
+}
+.hero-btn {
+  margin-top: 36px;
 }
 .customers-list {
   gap: 72px 24px;
@@ -56,6 +72,14 @@
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+   .hero {
+     background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/cover.jpg);
   }
   .benefits-container {
     width: 1158px;
@@ -157,5 +181,8 @@
   }
   .customers-item {
     width: calc((100% - 120px) / 6);
+  }
+  .hero-btn {
+    margin-top: 48px;
   }
 }
