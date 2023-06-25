@@ -136,7 +136,7 @@
   .team-item {
     width: calc((100% - 24px) / 2);
   }
-  
+
   .customers-container {
     max-width: 552px;
   }
@@ -150,7 +150,6 @@
   .footer-container {
     max-width: 264px;
     align-items: flex-start;
-    
   }
   .footer {
   }
@@ -161,11 +160,8 @@
     display: flex;
     max-width: 453px;
     margin-left: 108px;
-     
   }
   .footer-logo {
-    
-   
   }
   .footer-logo-soc-div {
     display: flex;
@@ -183,29 +179,34 @@
   .footer-subsribe-text {
     text-align: start;
   }
-.gallery-list {
-  width: 586;
-  flex-wrap: nowrap;
-  gap: 24px;
-   margin-bottom: 72px; 
-}
-.gallery-btn-div {
- 
- 
-}
-.gallery-btn-accent {
-   padding: 12px 24px 12px;
-}
-.gallery-img-list {
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 72px 24px;
-  margin-top: 72px;
- justify-content: start;
-}
-.gallery-img-item {
- width: calc((100% - 24px) / 2);
-}
+  .gallery {
+  }
+
+  .gallery-item {
+  }
+  .gallery-btn-div {
+    max-width: 600px;
+  }
+  .gallery-btn-accent {
+    padding: 12px 24px;
+  }
+  .gallery-img-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    margin-top: 72px;
+    justify-content: start;
+  }
+  .gallery-img-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .gallery-list {
+    width: 600px;
+    /* flex-direction: row;
+    flex-wrap: nowrap; */
+    gap: 24px;
+    justify-content: center;
+  }
 }
 @media screen and (min-width: 1158px) {
   .container {
@@ -213,14 +214,14 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-  
+
   .header-link-logo {
     margin-right: 76px;
   }
   .header-nav {
     /* margin-left: 156px; */
   }
-  
+
   .header-address-list {
     display: flex;
     flex-direction: row;
@@ -238,162 +239,169 @@
       url(../images/cover.jpg);
   }
   @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {.hero {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/laptop-office-2x.jpg);
-     padding-top: 188px;
-  padding-bottom: 188px;}
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/laptop-office-2x.jpg);
+      padding-top: 188px;
+      padding-bottom: 188px;
+    }
 
-  .hero-btn {
-    margin-top: 48px;
-  }
-  .benefits-container {
-    width: 1158px;
-    height: 224px;
-  }
-  .benefits {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
+    .hero-btn {
+      margin-top: 48px;
+    }
+    .benefits-container {
+      width: 1158px;
+      height: 224px;
+    }
+    .benefits {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
 
-  .benefits-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-  }
+    .benefits-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
 
-  .benefits-item {
-    width: calc((100% - 72px) / 4);
-  }
-  .benefits-container-icon {
-    width: 264px;
-    height: 112px;
-    border-radius: 4px;
-    background: #f4f4fd;
-    position: relative;
-    margin-bottom: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .benefits-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .benefits-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
+    .benefits-item {
+      width: calc((100% - 72px) / 4);
+    }
+    .benefits-container-icon {
+      width: 264px;
+      height: 112px;
+      border-radius: 4px;
+      background: #f4f4fd;
+      position: relative;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .benefits-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .benefits-title {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: 0.02em;
+      color: #2e2f42;
+    }
 
-  .benefits-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
-  }
-  .offer-container {
-    width: 1158px;
-    background-color: #ffffff;
-  }
+    .benefits-text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--text-color);
+    }
+    .offer-container {
+      width: 1158px;
+      background-color: #ffffff;
+    }
 
-  .offer {
-    display: flex;
-    padding-top: 0;
-    padding-bottom: 120px;
-  }
-  .offer-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--main-color);
-    margin-bottom: 72px;
-  }
-  .offer-list {
-    background-color: #ffffff;
-    display: flex;
-    gap: 24px;
-  }
-  .offer-item {
-    width: calc((100% - 24px) / 3);
-  }
-  .team {
-    padding-bottom: 120px;
-    padding-top: 120px;
-  }
+    .offer {
+      display: flex;
+      padding-top: 0;
+      padding-bottom: 120px;
+    }
+    .offer-title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.11;
+      text-align: center;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+      color: var(--main-color);
+      margin-bottom: 72px;
+    }
+    .offer-list {
+      background-color: #ffffff;
+      display: flex;
+      gap: 24px;
+    }
+    .offer-item {
+      width: calc((100% - 24px) / 3);
+    }
+    .team {
+      padding-bottom: 120px;
+      padding-top: 120px;
+    }
 
-  .team-list {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 24px;
+    .team-list {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+    .team-item {
+      width: calc((100% - 72px) / 4);
+    }
+    .customers {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+    .customers-container {
+      max-width: 1128px;
+    }
+    .customers-item {
+      width: calc((100% - 120px) / 6);
+    }
+    .footer {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+    }
+    .footer-container-main {
+      max-width: 1158px;
+      display: flex;
+      /* align-items: baseline; */
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+    .footer-container {
+      width: 264px;
+      margin-right: auto;
+    }
+    .footer-text {
+      margin-bottom: 0;
+    }
+    .footer-icon-container {
+      width: 208px;
+      height: 80px;
+      margin-bottom: 0;
+    }
+    .footer-wrap-main {
+      margin-left: 0;
+    }
+    .footer-logo-soc-div {
+      display: flex;
+      gap: 100px;
+      flex-direction: row;
+      margin-left: 0;
+      margin-right: 80px;
+    }
+    .gallery-list {
+    }
+    .gallery-img-list {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 48px 24px;
+      margin-top: 72px;
+    }
+    .gallery-img-item {
+      width: calc((100% - 48px) / 3);
+    }
   }
-  .team-item {
-    width: calc((100% - 72px) / 4);
-  }
-  .customers {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-  .customers-container {
-    max-width: 1128px;
-  }
-  .customers-item {
-    width: calc((100% - 120px) / 6);
-  }
-  .footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    
-    /* max-width: 1128px; */
-  }
-  .footer-container-main {
-    
-    display: flex;
-    align-items: baseline;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .footer-container {
-    width: 264px;
-    margin-right: auto;
-  }
-  .footer-text {
-    margin-bottom: 0;
-  }
-  .footer-icon-container {
-    height: 80px;
-    margin-bottom: 0;
-  }
-  .footer-wrap-main {
-    
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .footer-logo-soc-div {
-    gap: 120px;
-    margin-right: 80px;
-  }
-  .gallery-img-list {
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 48px 24px;
-  margin-top: 72px;
- 
-}
-.gallery-img-item {
- width: calc((100% - 48px) / 3);
-}
 }
