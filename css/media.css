@@ -36,9 +36,9 @@
         url(../images/tablet-bg-2x.jpg);
     }
   }
-  .tablet-header {
+  /* .tablet-header {
     display: flex;
-  }
+  } */
   .header {
     padding-top: 0;
     padding-bottom: 0;
@@ -136,8 +136,7 @@
   .team-item {
     width: calc((100% - 24px) / 2);
   }
-  .customers {
-  }
+  
   .customers-container {
     max-width: 552px;
   }
@@ -162,6 +161,7 @@
     display: flex;
     max-width: 453px;
     margin-left: 108px;
+     
   }
   .footer-logo {
     
@@ -177,9 +177,35 @@
     flex-direction: row;
     gap: 24px;
   }
+  .footer-input {
+    width: 264px;
+  }
   .footer-subsribe-text {
     text-align: start;
   }
+.gallery-list {
+  width: 586;
+  flex-wrap: nowrap;
+  gap: 24px;
+   margin-bottom: 72px; 
+}
+.gallery-btn-div {
+ 
+ 
+}
+.gallery-btn-accent {
+   padding: 12px 24px 12px;
+}
+.gallery-img-list {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 72px 24px;
+  margin-top: 72px;
+ justify-content: start;
+}
+.gallery-img-item {
+ width: calc((100% - 24px) / 2);
+}
 }
 @media screen and (min-width: 1158px) {
   .container {
@@ -187,16 +213,14 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-  .header-container {
-  }
+  
   .header-link-logo {
     margin-right: 76px;
   }
   .header-nav {
     /* margin-left: 156px; */
   }
-  .header-menu-list {
-  }
+  
   .header-address-list {
     display: flex;
     flex-direction: row;
@@ -221,7 +245,9 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/laptop-office-2x.jpg);}
+    url(../images/laptop-office-2x.jpg);
+     padding-top: 188px;
+  padding-bottom: 188px;}
 
   .hero-btn {
     margin-top: 48px;
@@ -330,9 +356,11 @@
   .footer {
     padding-top: 100px;
     padding-bottom: 100px;
+    
     /* max-width: 1128px; */
   }
   .footer-container-main {
+    
     display: flex;
     align-items: baseline;
     flex-direction: row;
@@ -350,11 +378,22 @@
     margin-bottom: 0;
   }
   .footer-wrap-main {
-    margin-left: 0;
+    
+    margin-left: auto;
     margin-right: auto;
   }
   .footer-logo-soc-div {
     gap: 120px;
     margin-right: 80px;
   }
+  .gallery-img-list {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  margin-top: 72px;
+ 
+}
+.gallery-img-item {
+ width: calc((100% - 48px) / 3);
+}
 }
