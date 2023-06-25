@@ -209,7 +209,7 @@ img {
   font-style: normal;
 }
 .mobmenu-icon-list {
-  /* max-width:328px ; */
+  width: 328px;
   display: flex;
   gap: 56px;
   margin-top: 48px;
@@ -217,7 +217,7 @@ img {
 .footer-icon-item {
   width: calc((100% - 168px) / 4);
 }
-er-address {
+.header-address {
   display: none;
 }
 .header-address-list {
