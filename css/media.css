@@ -10,6 +10,17 @@
     display: none;
   }
 }
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 767px;
+  }
+  .mobmenu-icon-list {
+    gap: 56px;
+  }
+  .modal {
+    width: 392px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .container {
@@ -123,6 +134,9 @@
     width: calc((100% - 24px) / 2);
     height: 120px;
   }
+  .benefits-title {
+    text-align: left;
+  }
   .offer {
     display: none;
   }
@@ -155,13 +169,15 @@
   }
   .footer-icon-container {
     max-width: 208px;
+    align-items: flex-start;
   }
   .footer-wrap-main {
     display: flex;
     max-width: 453px;
     margin-left: 108px;
   }
-  .footer-logo {
+  .footer-social-text {
+    text-align: left;
   }
   .footer-logo-soc-div {
     display: flex;
@@ -179,6 +195,11 @@
   .footer-subsribe-text {
     text-align: start;
   }
+  .modal {
+    width: 408px;
+    padding: 72px 35px 24px 23px;
+  }
+
   .gallery {
   }
 
@@ -391,6 +412,9 @@
       flex-direction: row;
       margin-left: 0;
       margin-right: 80px;
+    }
+    .modal {
+      padding: 72px 24px 24px 24px;
     }
     .gallery-list {
     }
