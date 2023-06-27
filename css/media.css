@@ -9,13 +9,19 @@
   .offer {
     display: none;
   }
+  .mobile-menu-div.container {
+    padding: 24px 24px 40px 40px;
+  }
 }
 @media screen and (min-width: 428px) {
   .container {
     max-width: 767px;
   }
   .mobmenu-icon-list {
+    justify-content: flex-start;
     gap: 56px;
+  }
+  .mobmenu-address-list {
   }
   .modal {
     width: 392px;
